@@ -6,4 +6,4 @@ print ("number > 0 is positive")
 else
 print ("number < 0 is negative")
 elif
-print ("number is 0 than is 0")
+print ("number is less is 0 than is 0")
