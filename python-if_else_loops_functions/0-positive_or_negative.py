@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import this
+import random
 number = random.randint(-10,10)
 if
 print ("number > 0 is positive")
