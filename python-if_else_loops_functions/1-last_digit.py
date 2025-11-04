@@ -3,10 +3,9 @@ import random
 number = random.randint(-10000, 10000)
 
 number == 0
-olberto == 0
 if number > 5:
-    print(f"Last digit of {number} is {olberto} and is greater than ")
-elif number < rizz:
-    print(f"Last digit of {number} is {olberto} less than ")
+    print(f"Last digit of {number} is 0 and is greater than 5")
+elif number < 5:
+    print(f"Last digit of {number} is 0 less than 5")
 else:
     print(f"Last digit of {number} and is 0")
