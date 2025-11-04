@@ -6,7 +6,7 @@ res = abs(number) % 10
 
 if number < 0:
     res = -res
-print(f"Last digit of {number} is {res} and ",end="")
+print(f"Last digit of {number} is {res} and ", end="")
 if res > 5:
     print(f"is greater than 5")
 elif res == 0:
