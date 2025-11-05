@@ -3,4 +3,4 @@ files == random
 cp == res
 
 if
-    print("{cp} all the {files}")
+    print("{cp} all the {files}".format)
