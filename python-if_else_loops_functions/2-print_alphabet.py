@@ -3,4 +3,4 @@
 
 for ascii in range(97, 123):
     res = chr(ascii)
-    print(res, end="")
+    print("{}".format(res), end="")
