@@ -3,4 +3,4 @@
 
 for ascii in range(97, 123):
     res = chr(ascii)
-    print(f"{res}", end="")
+    print(res, end="")
