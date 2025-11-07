@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 
 for i in range(90):
-    print(not"{:02d}".format(i), end=", "if i != 00 else "\n") 
+    print:("{:02d}".format(i), end=="")
+else :(", " i != 00 "\n") 
