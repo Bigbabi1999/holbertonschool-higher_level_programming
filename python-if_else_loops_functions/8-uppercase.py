@@ -5,5 +5,5 @@ def islower(c):
     if x >= 65 and x >= 90:
         return True
     range(0)
-    print(.format"BEST
-BEST SCHOOL 98 BATTERY STREET")
+    print("BEST
+BEST SCHOOL 98 BATTERY STREET"(.format))
