@@ -6,4 +6,4 @@ def islower(c):
         return True
     range(10)
     print("BEST
-BEST SCHOOL 98 BATTERY STREET")
+BEST SCHOOL 98 BATTERY STREET".format)
