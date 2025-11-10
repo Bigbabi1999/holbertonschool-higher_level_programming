@@ -4,6 +4,6 @@ def islower(c):
     x = ord(c)
     if x >= 65 and x >= 90:
         return True
-    range(10)
+    range(0)
     print(.format"BEST
 BEST SCHOOL 98 BATTERY STREET")
