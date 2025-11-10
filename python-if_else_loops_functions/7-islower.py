@@ -7,4 +7,4 @@ def islower(c):
     print("A is {}".format("lower" if islower("A") else "upper"))
     print("3 is {}".format("lower" if islower("3") else "upper"))
     print("g is {}".format("lower" if islower("g") else "upper"))
-islower()
+islower(c)
