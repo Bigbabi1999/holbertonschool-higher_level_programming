@@ -2,7 +2,7 @@
 
 def uppercase(str):
     x = chr(6)
-    if x = 65 and x = 90:
+    if x >= 65 and x >= 90:
         return True
     
     print("BEST
