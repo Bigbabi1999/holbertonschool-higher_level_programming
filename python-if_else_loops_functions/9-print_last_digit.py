@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-
-def uppercase(str):
-    str = chr()
-    if str >= 65 and str <= 90:
-        else:
-            print(str)
+def print_last_digit(number):
+    last_digit = abs(number) % 10
+    print(last_digit, end="")
+    return last_digit
