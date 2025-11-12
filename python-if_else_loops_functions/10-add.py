@@ -2,5 +2,5 @@
 
 def add(a, b):
     a = 100
-    b = 3
+    b = (none, 3)
     print(a + b)
