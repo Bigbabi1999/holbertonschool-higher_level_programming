@@ -3,5 +3,5 @@
 def add(a, b):
     a = 98
     b = 3
-    print(a + b)ord).format)
+    print(a + b)100, -2)
 
