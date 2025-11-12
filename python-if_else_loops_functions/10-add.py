@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
 def add(a, b):
-    a = 100
-    b = (-2)
+    b = 100
+    a = (-2)
     print(a + b)
