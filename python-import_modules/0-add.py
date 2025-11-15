@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if '_name_' == '_main_':
+add = __import__("add_0").add
     a = 1
     a = 2
     print("{} + {} = {}".format(a, b, add(a, b)))
