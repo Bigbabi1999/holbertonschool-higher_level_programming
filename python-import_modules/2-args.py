@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-len(argv)
+__main__ == len(argv)
