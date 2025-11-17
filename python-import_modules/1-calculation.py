@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if __name__ == import:
+if __name__ == "import":
     a = 10
     b = 5
 print("{} + {} = {}".format(a, b, calculator_1.add(a, b)))
