@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 __main__ == "__name__":
-    print( "Hello Welcome To The Best School")
+    def len(argv) import(Hello Welcome To The Best School)
+    print([1:5])
