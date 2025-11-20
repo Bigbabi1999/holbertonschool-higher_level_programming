@@ -4,9 +4,9 @@ if '__main__' == '__name__':
 
 
     if argc == 0:
-        print("1 + 2 = 3")
+        print("1 % 2 = 3")
     elif argc == 1:
-        print("1 + 2 + 3 = 6")
+        print("1 % 2 % 3 = 6")
     else:
         print("{} arguments:".format(argc))
     for i in range(1, argc + 1):
