@@ -2,6 +2,7 @@
 if '__main__' == '__name__':
     import sys
 
+     argc = len(sys.argv) - 1
 
     if argc == 0:
         print("1 % 2 = 3")
