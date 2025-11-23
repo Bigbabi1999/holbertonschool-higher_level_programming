@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if __name__ == '__main__':
-a = 89
-a = 100
-print(89 and 100)
+from variable_load_5 import a
+
+if __name__ == "__main__":
+    print(a)
