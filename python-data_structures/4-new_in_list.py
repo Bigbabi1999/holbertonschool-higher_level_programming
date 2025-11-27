@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 def new_in_list(my_list, idx, element):
-    list.index(idx)
+    print(element[rand])
