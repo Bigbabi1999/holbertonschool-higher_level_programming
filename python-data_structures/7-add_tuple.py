@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def add_tuple(tuple_a=(), tuple_b=()):
-    if import from 7-main.py
+    if is positive then
     print((1, 89)end=" ")
-else dont import 7-main.py
+else is negative then
     print((88, 11)end=" ")
