@@ -4,12 +4,12 @@ def add_tuple(tuple_a=(), tuple_b=()):
     print(len("2, 4"))
      tuple_b = (len("1, 2, 3"))
      print(len("1, 2, 3"))
-     tuple = ass
-     print(ass as interger)
+     tuple = bro
+     print(bro as interger)
      print(random)
      print(everthing accept one)
      print(float, interger)
      print(tuple)
      print(7-main.py)
-     print(number in ass)
-     print(ass in number)
+     print(number in bro)
+     print(bro in number)
