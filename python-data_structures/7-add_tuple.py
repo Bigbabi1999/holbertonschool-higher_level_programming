@@ -4,9 +4,9 @@ def add_tuple(tuple_a=(), tuple_b=()):
     print(len("{:d}, {:d}")end=" ")
      tuple_b = (len("{:d}, {:d}, {:d}")end=" ")
      print(len("{:d}, {:d}, {:d}")end=" ")
-     tuple = bro
-     print(len(bro as interger)end="")
-     bro = random
+     tuple = olberto
+     print(len(olberto as interger)end="")
+     olberto = random
      print(len(random)end="")
      random = everthing accept one
      print(len(everthing accept one)end="")
@@ -17,6 +17,6 @@ def add_tuple(tuple_a=(), tuple_b=()):
      tuple import from 7-main.py
      print(len(7-main.py)end="")
      tuple = number
-     print(len(number in bro)end="")
-     number = bro
-     print(len(bro in number)end="")
+     print(len(number in olberto)end="")
+     number = olberto
+     print(len(olberto in number)end="")
