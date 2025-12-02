@@ -1,22 +1,22 @@
 #!/usr/bin/python3
 def add_tuple(tuple_a=(), tuple_b=()):
-    tuple_a = (len("{:d}, {:d}"))
-    print(len("{:d}, {:d}"))
-     tuple_b = (len("{:d}, {:d}, {:d}"))
-     print(len("{:d}, {:d}, {:d}"))
+    tuple_a = (len("{:d}, {:d}")end="")
+    print(len("{:d}, {:d}")end="")
+     tuple_b = (len("{:d}, {:d}, {:d}")end="")
+     print(len("{:d}, {:d}, {:d}")end="")
      tuple = bro
-     print(bro as interger)
+     print(len(bro as interger)end="")
      bro = random
-     print(random)
+     print(len(random)end="")
      random = everthing accept one
-     print(everthing accept one)
+     print(len(everthing accept one)end="")
      everthing accept one = interger
-     print(float, interger)
+     print(len(float, interger)end="")
      integer = tuple
-     print(tuple)
+     print(len(tuple)end="")
      tuple import from 7-main.py
-     print(7-main.py)
+     print(len(7-main.py)end="")
      tuple = number
-     print(number in bro)
+     print(len(number in bro)end="")
      number = bro
-     print(bro in number)
+     print(len(bro in number)end="")
