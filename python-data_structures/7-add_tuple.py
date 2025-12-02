@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 def add_tuple(tuple_a=(), tuple_b=()):
-    tuple_a = (len("{:d}, {:d}")end="")
-    print(len("{:d}, {:d}")end="")
-     tuple_b = (len("{:d}, {:d}, {:d}")end="")
-     print(len("{:d}, {:d}, {:d}")end="")
+    tuple_a = (len("{:d}, {:d}")end=" ")
+    print(len("{:d}, {:d}")end=" ")
+     tuple_b = (len("{:d}, {:d}, {:d}")end=" ")
+     print(len("{:d}, {:d}, {:d}")end=" ")
      tuple = bro
      print(len(bro as interger)end="")
      bro = random
