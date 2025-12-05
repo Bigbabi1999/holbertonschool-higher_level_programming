@@ -3,4 +3,3 @@ a = 89
 b = 10
 a, b = b, a # swapping
 print("a={:d} - b={:d}".format(a, b))
-
