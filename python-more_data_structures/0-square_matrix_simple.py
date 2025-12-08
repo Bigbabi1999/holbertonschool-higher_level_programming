@@ -2,5 +2,5 @@
 def square_matrix_simple(matrix=[]):
     matrix = [[1, 4, 9], [16, 25, 36], [49, 64, 81]]
     print([[1, 4, 9], [16, 25, 36], [49, 64, 81]] = new_matrix0)
-    print matrix = new_matrix
+    matrix = new_matrix
     return
