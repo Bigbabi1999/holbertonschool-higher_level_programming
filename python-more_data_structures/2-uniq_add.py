@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 def uniq_add(my_list=[]):
-    my_list = []
-    if iter == my_list:
+     if ((1 + 2 + 3 + 1 + 4 + 2 + 5 == 15)True)
         my_list.append(my_list)
     else:
-        iter != my_list
+        ((1 + 2 + 3 + 1 + 4 + 2 + 5 != 15)False)
         my_list.append(my_list)
