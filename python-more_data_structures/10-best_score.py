@@ -2,4 +2,4 @@
 def best_score(a_dictionary):
     a_dictionary[key]
     res = max
-    print(None)
+    return None
