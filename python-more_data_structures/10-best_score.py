@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 def best_score(a_dictionary):
     a_dictionary[key]
-    res = max
+    res = max(d, key=lambda k: d[k])
     return None
