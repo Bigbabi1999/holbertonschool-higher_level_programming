@@ -1,9 +1,8 @@
 #!/usr/bin/python3
+"""Module that reads a file"""
+
 
 def read_file(filename=""):
-    print("We offer a truly innovative approach to education:"
-"focus on building reliable applications and scalable systems, take on real-world challenges, collaborate with your peers."
-
-"A school every software engineer would have dreamt of!")
-    (filename)
-    return
+    """Reads a text file (UTF8) and prints it to stdout"""
+with open(filename, encoding="utf-8") as f:
+    print(f.read(), end="")
