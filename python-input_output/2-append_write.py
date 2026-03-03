@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Appends a string to a text file and 
+"""Appends a string to a text file and
 returns number of characters added"""
 
 
