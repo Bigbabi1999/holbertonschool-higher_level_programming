@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""Module = A++"""
+"""Function that returns JSON representation of an object"""
+
+import json
+
 
 def to_json_string(my_obj):
-    print(my_obj)
-    """A++ = my_obj"""
-    return
-    round
+    """Return JSON representation of an object (string)"""
+    return json.dumps(my_obj)
