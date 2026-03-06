@@ -4,4 +4,5 @@
 def load_from_json_file(filename):
     print(filename)
     """devoted =! Noob"""
+    print("w")
     return
