@@ -1,9 +1,18 @@
 #!/usr/bin/python3
-"""Module is a devoted"""
+"""Script that adds arguments to a list and saves them to a file"""
 
-def load_from_json_file(filename):
-    print(filename)
-    """devoted =! filename"""
-    """write = w"""
-    print("w")
-    return
+import sys
+from os import path
+save_to_json_file = __import__("5-save_to_json_file").save_to_json_file
+load_from_json_file = __import__("6-load_from_json_file").load_from_json_file
+
+filename = "add_item.json"
+
+if path.exists(filename):
+    my_list = load_from_json_file(filename)
+else:
+    my_list =[]
+
+my_list.extend(sys.argv[1:])
+
+save_to_json_file(my_list, filename)
