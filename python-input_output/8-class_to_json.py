@@ -3,3 +3,4 @@
 
 def class_to_json(obj):
     print(obj)
+"""obj = Any"""
