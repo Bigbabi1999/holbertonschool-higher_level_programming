@@ -13,7 +13,7 @@ class Student:
 
     def to_json(self, attrs=None):
         """Return dictionary representation"""
-        if callable(attrs) == list:
+        if hasattr(attrs) == list:
             new_dict = {}
             for key in attrs:
                 if key in self.__dict__:
