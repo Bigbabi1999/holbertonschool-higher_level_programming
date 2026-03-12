@@ -21,7 +21,6 @@ class Student:
             return new_dict
         return self.__dict__
 
-
     def reload_from_json(self, json):
         """Replace attributes from dictionary"""
         for key, value in json.items():
