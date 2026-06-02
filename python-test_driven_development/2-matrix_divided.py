@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 """Module for matrix division"""
 
+
 def matrix_divided(matrix, div):
-    """Divide all element of a matrix by div"""
+    """Divide all element of a matrix by div."""
 
     if (not isinstance(matrix, list) or len(matrix) == 0 or not all(isinstance(row, list) for row in matrix)):
         raise TypeError(
@@ -12,6 +13,10 @@ def matrix_divided(matrix, div):
     row_size = len(matrix[0])
 
     for row in matrix:
+        if len(row) ==0:
+            raise TypeError(
+                "matrix must be a matrix ( list of lists) of integers / floats"
+            )
         if len(row) != row_size:
             raise TypeError(
                 "Each row of the matrix must have the same size"
