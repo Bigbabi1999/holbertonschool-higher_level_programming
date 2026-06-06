@@ -3,8 +3,8 @@
 >>> say_my_name("Bob", "Lennon")
 My name is Bob Lennon
 
->>> say_my_name("Bob ")
-My name is Bob 
+>>> say_my_name("Bob")
+My name is Bob
 
 >>> try:
 ...     say_my_name("Bob", 12)
