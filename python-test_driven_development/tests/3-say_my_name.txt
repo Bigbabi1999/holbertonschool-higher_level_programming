@@ -4,7 +4,7 @@
 My name is Bob Lennon
 
 >>> say_my_name("Bob ")
-My name is Bob
+My name is Bob 
 
 >>> try:
 ...     say_my_name("Bob", 12)
