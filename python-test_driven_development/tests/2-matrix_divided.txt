@@ -7,3 +7,26 @@
 Traceback (most recent call last):
 ...
 ZeroDivisionError: division by zero
+Traceback (most recent call last):
+    ...
+TypeError: a must be an integer
+>>> add_integer(5,'b')
+Traceback (most recent call last):
+    ...
+TypeError: b must be an integer
+>>> add_integer('a','b')
+Traceback (most recent call last):
+    ...
+TypeError: a must be an integer
+>>> add_integer(0.1E310, 10)
+Traceback (most recent call last):
+    ...
+OverflowError: cannot convert float infinity to integer
+>>> add_integer(1, 0.1E310)
+Traceback (most recent call last):
+    ...
+OverflowError: cannot convert float infinity to integer
+>>> add_integer(5, float("nan"))
+Traceback (most recent call last):
+    ...
+ValueError: cannot convert float NaN to integer
