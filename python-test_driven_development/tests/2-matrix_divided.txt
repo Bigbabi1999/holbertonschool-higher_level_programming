@@ -7,7 +7,6 @@
 Traceback (most recent call last):
 ...
 ZeroDivisionError: division by zero
-
 Traceback (most recent call last):
     ...
 TypeError: a must be an integer
