@@ -19,6 +19,7 @@ Print a square of size 1:
 
     >>> print_square(1)
     #
+    
 Raise an error for negative values
 
     >>> print_square(-1)
