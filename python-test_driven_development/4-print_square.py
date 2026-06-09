@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+"""Module that defines a function to print a square"""
+
+
 def print_square(size):
+    """Print a square with the character #"""
     if type(size) is not int:
         raise TypeError("size must be an integer")
 
