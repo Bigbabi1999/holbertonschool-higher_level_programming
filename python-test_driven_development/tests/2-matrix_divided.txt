@@ -6,6 +6,16 @@
 >>> matrix_divided([[1, 2], [3, 4]], float("inf"))
 [[0.0, 0.0], [0.0, 0.0]]
 
+>>> matrix_divided()
+Traceback (most recent call last):
+    ...
+TypeError: matrix_divided() missing 2 required posititional arguments: 'matrix' and 'div'
+
+>>> matrix_divided([[1, 2], [3, 4]])
+Traceback (most recent call last):
+    ...
+TypeError: matrix_divided() missing 1 required posititional argument: 'div'
+
 >>> matrix_divided([[1, 2], [3, 4]], 0)
 Traceback (most recent call last):
     ...
@@ -15,6 +25,11 @@ ZeroDivisionError: division by zero
 Traceback (most recent call last):
     ...
 TypeError: div must be a number
+
+>>> matrix_divided("hello", 2)
+Traceback (most recent call last):
+    ...
+TypeError: matrix must be a matrix (list of lists) of integers/floats 
 
 >>> matrix_divided([[1, 2], [3, "4"]], 2)
 Traceback (most recent call last):
