@@ -5,11 +5,12 @@
 def matrix_divided(matrix, div):
     """Divide all element of a matrix by div."""
 
-    if (not isinstance(matrix, list) 
-        or len(matrix) == 0 
-        or not all(isinstance(row, list) for row in matrix)):
+    if (not isinstance(matrix, list)
+        or len(matrix) == 0
+        or not all(isinstance(row, list) for row in matrix)
+    ):
         raise TypeError(
-            "matrix must be a matrix (list of lists) of integers/floats"
+        "matrix must be a matrix (list of lists) of integers/floats"
         )
 
     row_size = len(matrix[0])
