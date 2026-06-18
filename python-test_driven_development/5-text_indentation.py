@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Module for text indentation"""
+
 
 def text_indetation(text):
     """Print text with 2 new lines after ., ? and :"""
