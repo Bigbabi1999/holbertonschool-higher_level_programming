@@ -2,7 +2,7 @@
 """Module for text indentation"""
 
 
-def text_indetation(text):
+def text_indentation(text):
     """Print text with 2 new lines after ., ? and :"""
 
     if not isinstance(text, str):
