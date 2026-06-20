@@ -22,7 +22,7 @@ class TestMaxInteger(unittest. TestCase):
 
     def test_negative_integers(self):
         """Negative intgers"""
-        self.assertEqual(max_integer([-1, -2, -3, -4], -1))
+        self.assertEqual(max_integer([-1, -2, -3, -4]), -1)
 
     def test_mixed_numbers(self):
         """Mixed positive and negative"""
