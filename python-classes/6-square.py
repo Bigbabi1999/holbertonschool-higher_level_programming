@@ -30,7 +30,7 @@ class Square:
     def position(self):
         """Retrieve the position"""
         return self.__position
-    
+
     @position.setter
     def position(self, value):
         """Set the position with validation"""
@@ -44,13 +44,13 @@ class Square:
     def area(self):
         """Return the current square area"""
         return self.__size ** 2
-    
+
     def my_print(self):
         """Print the square with # using position"""
         if self.__size == 0:
             print()
             return
-        
+
         for i in range(self.__position[1]):
             print()
 
