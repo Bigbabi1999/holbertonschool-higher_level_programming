@@ -29,5 +29,5 @@ Print the sorted version:
 
 Check that the original list has not changed:
 
-    >>> Print(my_list)
+    >>> print(my_list)
     [1, 4, 2, 3, 5]
