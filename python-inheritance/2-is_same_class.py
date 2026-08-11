@@ -1,1 +1,7 @@
 #!/usr/bin/python3
+"""Defines a function to check the ecact class of an object"""
+
+
+def is_same_class(obj, a_class):
+    """Return True if obj is exaclty an instance of a_class"""
+    return type(obj) is a_class
