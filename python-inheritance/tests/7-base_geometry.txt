@@ -1,0 +1,30 @@
+=============================================================================================================================
+BaseGeometry - integer_validator
+=============================================================================================================================
+
+Import the BaseGeometry class:
+
+    >>> BaseGeometry = __import__('7-BaseGeometry').BaseGeometry
+
+Create a BaseGeometry object:
+
+    >>> bg = BaseGeometry()
+
+Valid positive integers should produce no output:
+
+    >>> bg.integer_validator("my_int", 12)
+    >>> bg.integer_validator("width", 89)
+
+A non-string name should raise TypeError:
+
+    >>> bg.integer_validator(123, 12)
+    Traceback (most recent call last):
+    ...
+    TypeError: name must be a string
+
+A non-integer value should raise TypeError:
+
+    >>> bg.integer_validator("name", "John")
+    Traceback (most recent call last):
+    ...
+    TypeError: name must be an integer
