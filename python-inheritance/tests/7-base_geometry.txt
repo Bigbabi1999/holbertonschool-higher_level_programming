@@ -28,3 +28,31 @@ A non-integer value should raise TypeError:
     Traceback (most recent call last):
     ...
     TypeError: name must be an integer
+
+Zero should raise ValueError:
+
+    >>> bg.integer_validator("age", 0)
+    Traceback (most recent call last):
+    ...
+    ValueError: age must be greater than 0
+
+A negative integer should raise ValueError:
+
+    >>> bg.integer_validator("distance", -4)
+    Traceback (most recent call last):
+    ...
+    ValueError: distance must be greater than 0
+
+A float should raise TypeError:
+
+    >>> bg.integer_validator("age", 13.5)
+    Traceback (most recent call last):
+    ...
+    TypeError: age must be an integer
+
+The Area method should still raise its exception:
+
+    >>> bg.area()
+    Traceback (most recent call last):
+    ...
+    Exception: area() is not implemented
