@@ -4,7 +4,7 @@ BaseGeometry - integer_validator
 
 Import the BaseGeometry class:
 
-    >>> BaseGeometry = __import__('7-BaseGeometry').BaseGeometry
+    >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 Create a BaseGeometry object:
 
