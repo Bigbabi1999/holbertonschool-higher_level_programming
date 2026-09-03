@@ -18,7 +18,7 @@ class Bird:
     """Represents a bird"""
 
     def fly(self):
-        """Prince that the bird is fliying"""
+        """Print that the bird is fliying"""
         print("The bird is flying")
 
     def habitat(self):
