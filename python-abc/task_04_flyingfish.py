@@ -9,9 +9,9 @@ class Fish:
         """Print that the fish is swimming"""
         print("The fish is swimming")
 
-        def habitat(self):
-            """Print the fish's habitat"""
-            print("The fish lives in water")
+    def habitat(self):
+        """Print the fish's habitat"""
+        print("The fish lives in water")
 
 
 class Bird:
