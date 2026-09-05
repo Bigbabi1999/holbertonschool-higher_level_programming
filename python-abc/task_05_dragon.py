@@ -3,7 +3,7 @@
 
 
 class SwimMixin:
-    """Mxin that provides swimming ability"""
+    """Mixin that provides swimming ability"""
 
     def swim(self):
         """Make the creature swim"""
